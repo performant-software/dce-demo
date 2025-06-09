@@ -1,0 +1,295 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		"http://iiif.io/api/presentation/3/context.json"
+	],
+	"id": "https://performant-software.github.io/dce-demo/pp/iiif/manifest.json",
+	"type": "Manifest",
+	"items": [
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170370",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170370/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170370/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/170370.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 629,
+								"width": 934
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170370"
+						}
+					]
+				}
+			],
+			"height": 629,
+			"width": 934,
+			"label": {
+				"none": [
+					"Folger case file"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170371",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170371/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170371/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/170371.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 1000,
+								"width": 750
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170371"
+						}
+					]
+				}
+			],
+			"height": 1000,
+			"width": 750,
+			"label": {
+				"none": [
+					"Burton bookplate"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170372",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170372/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170372/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/170372.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 1000,
+								"width": 750
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170372"
+						}
+					]
+				}
+			],
+			"height": 1000,
+			"width": 750,
+			"label": {
+				"none": [
+					"Burton case file entry 1"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170373",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170373/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170373/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/170373.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 1000,
+								"width": 750
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/170373"
+						}
+					]
+				}
+			],
+			"height": 1000,
+			"width": 750,
+			"label": {
+				"none": [
+					"Burton case file entry 2"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022231",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022231/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022231/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/022311-Large_12000px.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 9013,
+								"width": 12000
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022231"
+						}
+					]
+				}
+			],
+			"height": 9013,
+			"width": 12000,
+			"label": {
+				"none": [
+					"PP B1v - B2r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022232",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022232/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022232/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/022312-Large_12000px.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 8973,
+								"width": 12000
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022232"
+						}
+					]
+				}
+			],
+			"height": 8973,
+			"width": 12000,
+			"label": {
+				"none": [
+					"PP B2v - B3r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022313",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022313/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022313/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/022313-Large_12000px.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 8983,
+								"width": 12000
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022313"
+						}
+					]
+				}
+			],
+			"height": 8983,
+			"width": 12000,
+			"label": {
+				"none": [
+					"PP B3v - B4r"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022314",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022314/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022314/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://raw.githubusercontent.com/kmabennett/Passionate-Pilgrim/refs/heads/main/022314-Medium_6000px.jpg",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 4469,
+								"width": 6000
+							},
+							"target": "https://performant-software.github.io/dce-demo/pp/iiif/canvas/022314"
+						}
+					]
+				}
+			],
+			"height": 4469,
+			"width": 6000,
+			"label": {
+				"none": [
+					"PP B4v - B5r"
+				]
+			},
+			"annotations": []
+		}
+	],
+	"label": {
+		"en": [
+			"pp"
+		]
+	},
+	"seeAlso": [
+		{
+			"id": "https://cu-mkp.github.io/editioncrafter-data/fr640_3r-3v-example/glossary.json",
+			"type": "Dataset",
+			"label": "Glossary",
+			"format": "text/json"
+		}
+	]
+}
