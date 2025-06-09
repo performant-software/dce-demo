@@ -3,7 +3,7 @@
   "documentName": "test",
   "iiifManifest": "/dce-demo/text/iiif/manifest.json",
   "transcriptionTypes": {
-    "text": "Transcription"
+    "transcription": "Transcription"
   },
   "viewerUrl": "/dce-demo"
 }
