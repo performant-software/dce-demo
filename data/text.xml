@@ -27,8 +27,8 @@
 
       <text xml:id="transcription">
 <body><div>
-    <pb facs="#f001" />
 <ab>
+    <pb facs="#f001" />
 <lb />MY test text
 </ab>
 
