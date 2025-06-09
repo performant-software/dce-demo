@@ -1,7 +1,7 @@
 {
   "id": "ec",
   "documentName": "test",
-  "iiifManifest": "/dce-demo/test/iiif/manifest.json",
+  "iiifManifest": "/dce-demo/pp/iiif/manifest.json",
   "transcriptionTypes": {
     "text": "Transcription"
   },
