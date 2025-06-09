@@ -3,20 +3,20 @@
 		"http://www.w3.org/ns/anno.jsonld",
 		"http://iiif.io/api/presentation/3/context.json"
 	],
-	"id": "https://performant-software.github.io/dce-demo/text/iiif/manifest.json",
+	"id": "https://performant-software.github.io/dce-demo/test/iiif/manifest.json",
 	"type": "Manifest",
 	"items": [
 		{
-			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000",
+			"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000",
 			"type": "Canvas",
 			"items": [
 				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000/annotationpage/0",
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000/annotationpage/0",
 					"type": "AnnotationPage",
 					"items": [
 						{
 							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000/annotationpage/0/annotation/0",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000/annotationpage/0/annotation/0",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -33,7 +33,7 @@
 									}
 								]
 							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000"
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000"
 						}
 					]
 				}
@@ -45,19 +45,52 @@
 					"001.tiff"
 				]
 			},
-			"annotations": []
-		},
-		{
-			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001",
-			"type": "Canvas",
-			"items": [
+			"annotations": [
 				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationpage/0",
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000/annotationPage/1",
 					"type": "AnnotationPage",
 					"items": [
 						{
 							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationpage/0/annotation/0",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/dce-demo/test/tei/text/f000.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000"
+						},
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/dce-demo/test/html/text/f000.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f001",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f001/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f001/annotationpage/0/annotation/0",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -74,7 +107,7 @@
 									}
 								]
 							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f001"
 						}
 					]
 				}
@@ -86,52 +119,19 @@
 					"003.tiff"
 				]
 			},
-			"annotations": [
-				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1",
-					"type": "AnnotationPage",
-					"items": [
-						{
-							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1/annotation/0",
-							"type": "Annotation",
-							"motivation": "supplementing",
-							"body": {
-								"id": "https://performant-software.github.io/dce-demo/text/tei/transcription/f001.xml",
-								"format": "text/xml",
-								"type": "TextPartial",
-								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
-							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
-						},
-						{
-							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1/annotation/1",
-							"type": "Annotation",
-							"motivation": "supplementing",
-							"body": {
-								"id": "https://performant-software.github.io/dce-demo/text/html/transcription/f001.html",
-								"format": "text/html",
-								"type": "TextPartial",
-								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
-							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
-						}
-					]
-				}
-			]
+			"annotations": []
 		},
 		{
-			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002",
+			"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f002",
 			"type": "Canvas",
 			"items": [
 				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002/annotationpage/0",
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f002/annotationpage/0",
 					"type": "AnnotationPage",
 					"items": [
 						{
 							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002/annotationpage/0/annotation/0",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f002/annotationpage/0/annotation/0",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -148,7 +148,7 @@
 									}
 								]
 							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002"
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f002"
 						}
 					]
 				}
@@ -163,16 +163,16 @@
 			"annotations": []
 		},
 		{
-			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003",
+			"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f003",
 			"type": "Canvas",
 			"items": [
 				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003/annotationpage/0",
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f003/annotationpage/0",
 					"type": "AnnotationPage",
 					"items": [
 						{
 							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003/annotationpage/0/annotation/0",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f003/annotationpage/0/annotation/0",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -189,7 +189,7 @@
 									}
 								]
 							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003"
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f003"
 						}
 					]
 				}
@@ -204,16 +204,16 @@
 			"annotations": []
 		},
 		{
-			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004",
+			"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f004",
 			"type": "Canvas",
 			"items": [
 				{
-					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004/annotationpage/0",
+					"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f004/annotationpage/0",
 					"type": "AnnotationPage",
 					"items": [
 						{
 							"@context": "https://www.w3.org/ns/anno.jsonld",
-							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004/annotationpage/0/annotation/0",
+							"id": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f004/annotationpage/0/annotation/0",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -230,7 +230,7 @@
 									}
 								]
 							},
-							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004"
+							"target": "https://performant-software.github.io/dce-demo/test/iiif/canvas/f004"
 						}
 					]
 				}
@@ -247,7 +247,7 @@
 	],
 	"label": {
 		"en": [
-			"text"
+			"test"
 		]
 	},
 	"seeAlso": [
