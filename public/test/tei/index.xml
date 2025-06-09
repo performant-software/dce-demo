@@ -25,10 +25,10 @@
 
       </facsimile>
 
-      <text xml:id="transcription">
+      <text xml:id="text">
 <body><div>
+    <pb facs="#f000" />
 <ab>
-    <pb facs="#f001" />
 <lb />MY test text
 </ab>
 
