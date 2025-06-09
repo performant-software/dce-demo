@@ -51,7 +51,7 @@ This repository contains the latest version of EditionCrafter. To upgrade to a n
 
 Then, upgrade the EditionCrafter CLI using this command:
 
-```npm install @cu-mkp/editioncrafter-cli@latest```
+```npm upgrade -g @cu-mkp/editioncrafter-cli```
 
 ## Credits
 

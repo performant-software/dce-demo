@@ -1,0 +1,261 @@
+{
+	"@context": [
+		"http://www.w3.org/ns/anno.jsonld",
+		"http://iiif.io/api/presentation/3/context.json"
+	],
+	"id": "https://performant-software.github.io/dce-demo/text/iiif/manifest.json",
+	"type": "Manifest",
+	"items": [
+		{
+			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-cloud-production.herokuapp.com/public/resources/ac524200-e326-4ccd-871f-caa8b8d13f03;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 2560,
+								"width": 1560,
+								"service": [
+									{
+										"id": "https://iiif-cloud-production.herokuapp.com/public/resources/ac524200-e326-4ccd-871f-caa8b8d13f03;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f000"
+						}
+					]
+				}
+			],
+			"height": 2560,
+			"width": 1560,
+			"label": {
+				"none": [
+					"001.tiff"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-cloud-production.herokuapp.com/public/resources/c00ed395-18ab-40be-8c8f-46cb2ddd10a6;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 2559,
+								"width": 1561,
+								"service": [
+									{
+										"id": "https://iiif-cloud-production.herokuapp.com/public/resources/c00ed395-18ab-40be-8c8f-46cb2ddd10a6;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
+						}
+					]
+				}
+			],
+			"height": 2559,
+			"width": 1561,
+			"label": {
+				"none": [
+					"003.tiff"
+				]
+			},
+			"annotations": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1/annotation/0",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/dce-demo/text/tei/text/f001.xml",
+								"format": "text/xml",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
+						},
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001/annotationPage/1/annotation/1",
+							"type": "Annotation",
+							"motivation": "supplementing",
+							"body": {
+								"id": "https://performant-software.github.io/dce-demo/text/html/text/f001.html",
+								"format": "text/html",
+								"type": "TextPartial",
+								"profile": "https://github.com/cu-mkp/editioncrafter-project/text-partial-resource.md"
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f001"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-cloud-production.herokuapp.com/public/resources/5f53e8db-6d7d-4b28-8442-8eab4ecbe8ce;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 2559,
+								"width": 1571,
+								"service": [
+									{
+										"id": "https://iiif-cloud-production.herokuapp.com/public/resources/5f53e8db-6d7d-4b28-8442-8eab4ecbe8ce;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f002"
+						}
+					]
+				}
+			],
+			"height": 2559,
+			"width": 1571,
+			"label": {
+				"none": [
+					"005.tiff"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-cloud-production.herokuapp.com/public/resources/09be984e-e751-4f29-be53-fb01497dd47a;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 2559,
+								"width": 1561,
+								"service": [
+									{
+										"id": "https://iiif-cloud-production.herokuapp.com/public/resources/09be984e-e751-4f29-be53-fb01497dd47a;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f003"
+						}
+					]
+				}
+			],
+			"height": 2559,
+			"width": 1561,
+			"label": {
+				"none": [
+					"007.tiff"
+				]
+			},
+			"annotations": []
+		},
+		{
+			"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004",
+			"type": "Canvas",
+			"items": [
+				{
+					"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004/annotationpage/0",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"@context": "https://www.w3.org/ns/anno.jsonld",
+							"id": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004/annotationpage/0/annotation/0",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif-cloud-production.herokuapp.com/public/resources/f46dbdd6-4f30-4508-99a0-2abfb6dce7ba;1",
+								"format": "image/jpeg",
+								"type": "Image",
+								"height": 2559,
+								"width": 1562,
+								"service": [
+									{
+										"id": "https://iiif-cloud-production.herokuapp.com/public/resources/f46dbdd6-4f30-4508-99a0-2abfb6dce7ba;1",
+										"type": "ImageService2",
+										"profile": "http://iiif.io/api/image/2/level2.json"
+									}
+								]
+							},
+							"target": "https://performant-software.github.io/dce-demo/text/iiif/canvas/f004"
+						}
+					]
+				}
+			],
+			"height": 2559,
+			"width": 1562,
+			"label": {
+				"none": [
+					"009.tiff"
+				]
+			},
+			"annotations": []
+		}
+	],
+	"label": {
+		"en": [
+			"text"
+		]
+	},
+	"seeAlso": [
+		{
+			"id": "https://cu-mkp.github.io/editioncrafter-data/fr640_3r-3v-example/glossary.json",
+			"type": "Dataset",
+			"label": "Glossary",
+			"format": "text/json"
+		}
+	]
+}

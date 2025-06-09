@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+          <fileDesc>
+              <titleStmt>
+                  <title>
+                      <!-- Your Title Here -->
+                  </title>
+              </titleStmt>
+              <publicationStmt>
+                  <p></p>
+              </publicationStmt>
+              <sourceDesc>
+                  <p></p>
+              </sourceDesc>
+          </fileDesc>
+      </teiHeader>
+
+      <facsimile sameAs="https://core-data-cloud-production-955ccda75add.herokuapp.com//core_data/public/v1/works/478e4e1a-e62a-40cd-9efb-27ee8f1101ac/manifests/81deded5-62d2-4f08-a63a-460f5257967e">
+                    <surface xml:id="f000" ulx="0" uly="0" lrx="1560" lry="2560" sameAs="https://iiif-cloud-production.herokuapp.com/public/resources/ac524200-e326-4ccd-871f-caa8b8d13f03/canvas/1" ><label xml:lang="en">001.tiff</label><graphic mimeType="application/json" url="https://iiif-cloud-production.herokuapp.com/public/resources/ac524200-e326-4ccd-871f-caa8b8d13f03;1"/></surface>
+          <surface xml:id="f001" ulx="0" uly="0" lrx="1561" lry="2559" sameAs="https://iiif-cloud-production.herokuapp.com/public/resources/c00ed395-18ab-40be-8c8f-46cb2ddd10a6/canvas/1" ><label xml:lang="en">003.tiff</label><graphic mimeType="application/json" url="https://iiif-cloud-production.herokuapp.com/public/resources/c00ed395-18ab-40be-8c8f-46cb2ddd10a6;1"/></surface>
+          <surface xml:id="f002" ulx="0" uly="0" lrx="1571" lry="2559" sameAs="https://iiif-cloud-production.herokuapp.com/public/resources/5f53e8db-6d7d-4b28-8442-8eab4ecbe8ce/canvas/1" ><label xml:lang="en">005.tiff</label><graphic mimeType="application/json" url="https://iiif-cloud-production.herokuapp.com/public/resources/5f53e8db-6d7d-4b28-8442-8eab4ecbe8ce;1"/></surface>
+          <surface xml:id="f003" ulx="0" uly="0" lrx="1561" lry="2559" sameAs="https://iiif-cloud-production.herokuapp.com/public/resources/09be984e-e751-4f29-be53-fb01497dd47a/canvas/1" ><label xml:lang="en">007.tiff</label><graphic mimeType="application/json" url="https://iiif-cloud-production.herokuapp.com/public/resources/09be984e-e751-4f29-be53-fb01497dd47a;1"/></surface>
+          <surface xml:id="f004" ulx="0" uly="0" lrx="1562" lry="2559" sameAs="https://iiif-cloud-production.herokuapp.com/public/resources/f46dbdd6-4f30-4508-99a0-2abfb6dce7ba/canvas/1" ><label xml:lang="en">009.tiff</label><graphic mimeType="application/json" url="https://iiif-cloud-production.herokuapp.com/public/resources/f46dbdd6-4f30-4508-99a0-2abfb6dce7ba;1"/></surface>
+
+      </facsimile>
+
+      <text xml:id="text">
+<body><div>
+    <pb facs="#f001" />
+<ab>
+<lb />MY test text
+</ab>
+
+  </div></body>
+      </text>
+  </TEI>
