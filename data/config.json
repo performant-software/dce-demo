@@ -1,7 +1,7 @@
 {
   "id": "ec",
   "documentName": "ODT test",
-  "iiifManifest": "https://beta-api.faircopy.cloud/public/12/tei_documents/architectur/iiif",
+  "iiifManifest": "https://staging-api.faircopy.cloud/public/118/tei_documents/fa25_adriaenssens_j/iiif",
   "transcriptionTypes": {
     "transcription": "Transcription"
   },
