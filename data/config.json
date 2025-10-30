@@ -1,7 +1,7 @@
 {
   "id": "ec",
-  "documentName": "Hamilton Letters",
-  "iiifManifest": "/dce-demo/hamilton/iiif/manifest.json",
+  "documentName": "ODT test",
+  "iiifManifest": "https://beta-api.faircopy.cloud/public/12/tei_documents/ancient_architectural_fragments/iiif",
   "transcriptionTypes": {
     "transcription": "Transcription"
   },
