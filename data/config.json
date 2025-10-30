@@ -1,7 +1,7 @@
 {
   "id": "ec",
   "documentName": "ODT test",
-  "iiifManifest": "https://beta-api.faircopy.cloud/public/12/tei_documents/ancient_architectural_fragments/iiif",
+  "iiifManifest": "https://beta-api.faircopy.cloud/public/12/tei_documents/architectur/iiif",
   "transcriptionTypes": {
     "transcription": "Transcription"
   },
