@@ -1,0 +1,9 @@
+{
+  "id": "ec",
+  "documentName": "ODT test",
+  "iiifManifest": "https://staging-api.faircopy.cloud/public/118/tei_documents/fa25_adriaenssens_j/iiif",
+  "transcriptionTypes": {
+    "transcription": "Transcription"
+  },
+  "viewerUrl": "/dce-demo"
+}
